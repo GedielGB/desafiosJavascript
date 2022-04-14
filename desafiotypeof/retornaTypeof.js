@@ -1,4 +1,9 @@
-function myFunction(a) {
+function myFunction
+(a,n)
+{    
+      const string = a;
+
+      return console.log(string[n]);
     
-      return typeof a;
 }
+myFunction('abcd',1)
